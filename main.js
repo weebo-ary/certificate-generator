@@ -41,7 +41,7 @@ const generatePDF = async (name) => {
   console.log("Done creating");
   var file = new File(
     [pdfBytes],
-    "Padhega India Subscription Certificate.pdf",
+    "Participation-Certifiction.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }
