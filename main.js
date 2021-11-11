@@ -31,8 +31,8 @@ const generatePDF = async (name) => {
   const pages = pdfDoc.getPages();
   const firstPage = pages[0];
   firstPage.drawText(name, {
-    x: 420,
-    y: 300,
+    x: 80,
+    y: 400,
     size: 28,
     font: SanChezFont,
     color: rgb(0, 0, 0  ),
